@@ -1,0 +1,44 @@
+:root {
+  /* Colores */
+  --background: #F7F8F0;
+  --primary: #355872;
+  --secondary: #7AAACE;
+  --accent: #9CD5FF;
+  --hover: #d2d2d2;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../assets/Quicksand.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal italic bold;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('../assets/Mulish.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal italic bold;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: 'Mulish', sans-serif;
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
