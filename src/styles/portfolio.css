@@ -27,7 +27,7 @@
     align-items: center;
     gap: 4px;
     list-style: none;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     padding: 0;
     padding-top: 0.4rem;
 }
@@ -46,6 +46,10 @@
 
 .nav-icon {
     display: none;
+}
+
+.nav-text {
+    font-size: clamp(0.7rem, 0.6rem + 0.8vw, 0.9rem);
 }
 
 /* Hero */
@@ -135,11 +139,6 @@
         /* display: block;
         margin-right: 0.5rem; */
     }
-
-    .nav-text {
-        font-size: 0.6rem;
-        /* display: none; */
-    }
 }
 
 @media (max-width: 375px) {
@@ -157,6 +156,6 @@
     }
 
     .nav-text {
-        font-size: 0.6rem;
+        font-size: clamp(0.6rem, 0.5rem + 1vw, 0.7rem);
     }
 }
