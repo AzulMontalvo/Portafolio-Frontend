@@ -1,6 +1,6 @@
 import './App.css'
 import './styles/portfolio.css'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './sections/About'
 import Skills from './sections/Skills'
