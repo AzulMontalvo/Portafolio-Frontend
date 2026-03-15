@@ -1,3 +1,5 @@
+import heroImage from './assets/images/retrato-ilustracion.png';
+
 function Hero() {
   return (
     <section className="hero">
@@ -12,7 +14,7 @@ function Hero() {
       <button id="btnContactar" className="hero-button">Contactar</button>
       </section>
       <img
-        src="src/assets/images/retrato-ilustracion.png"
+        src={heroImage}
         alt="Hero Image"
         className="hero-image"
       />
