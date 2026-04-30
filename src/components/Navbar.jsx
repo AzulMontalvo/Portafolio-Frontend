@@ -1,8 +1,11 @@
+import logo from '../assets/icons/logo.svg';
+
 function Navbar() {
   return (
     <header className="navbar">
         <div className="nav-container">
-            <h1 className="nav-title"><a href="#home">Azul Montalvo</a></h1>
+            <img src={logo} alt="Logo" className="nav-logo" />
+            {/* <h1 className="nav-title"><a href="#home">Azul Montalvo</a></h1> */}
             <nav>
                 <ul className="nav-links">
                     <li className="nav-item">
