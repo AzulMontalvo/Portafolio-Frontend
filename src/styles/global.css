@@ -40,10 +40,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background);
-  font-family: 'Mulish', sans-serif;
-  color: var(--primary);
   background-image: radial-gradient(var(--accent) 0.5px, transparent 0.9px);
   background-size: 30px 30px;
+  font-family: 'Mulish', sans-serif;
+  color: var(--primary);
 }
 
 #root {
@@ -70,8 +70,8 @@ body {
     border: none;
     border-radius: 10px;
     background-color: var(--primary);
-    font-size: 1.1rem;
     font-family: 'Mulish', sans-serif;
+    font-size: 1.1rem;
     text-decoration: none;
     color: #fff;
     transition: all 0.3s ease;
@@ -85,6 +85,6 @@ body {
 }
 
 .btn-base:hover {
-    transform: scale(1.1);
     box-shadow: 0 10px 20px rgba(122, 170, 206, 0.5);
+    transform: scale(1.1);
 }
