@@ -336,10 +336,6 @@
         padding-right: 1rem;
     }
 
-    .stats-container {
-        padding: 0;
-    }
-
     .about>a {
         order: 4;
     }
@@ -361,7 +357,7 @@
     .stats-container {
         justify-content: center;
         margin: 0;
-        /* padding: 0; */
+        padding: 1rem 0 0 0;
     }
 
     .skills-grid {
