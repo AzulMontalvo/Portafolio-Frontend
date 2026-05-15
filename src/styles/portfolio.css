@@ -293,7 +293,14 @@
         font-size: 1.2rem;
     }
 
+    .hero-content {
+        width: 100%;
+        justify-items: center;
+        margin: 0;
+    }
+
     .hero-content h1 {
+        max-width: 70%;
         margin: 0;
     }
 
