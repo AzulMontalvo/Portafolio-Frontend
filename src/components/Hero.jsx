@@ -10,8 +10,7 @@ function Hero() {
         <p>
           Desarrolladora Full Stack especializada en crear aplicaciones web
           completas, combinando interfaces de usuario fluidas con arquitecturas
-          de backend robustas y escalables. Transformo ideas complejas en
-          soluciones digitales integrales y eficientes.
+          de backend robustas y escalables.
         </p>
         <a id="btnProyectos" className="btn-base" href='#projects'>
           Ver proyectos

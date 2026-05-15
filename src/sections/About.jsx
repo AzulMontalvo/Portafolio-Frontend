@@ -24,22 +24,28 @@ function About() {
       </section>
       <article className="about-right">
         <p>
-          Soy <strong>Ingeniera en Sistemas</strong> con una especialización marcada en el
-          desarrollo de <strong>aplicaciones integrales</strong>. Mi formación me permite abordar
-          cada proyecto desde una estructura lógica y técnica sólida,
-          garantizando que tanto la experiencia del usuario como la arquitectura
-          del servidor estén respaldadas por un código <strong>eficiente</strong> y <strong>escalable</strong>.
+          Soy <strong>Ingeniera en Sistemas</strong> con especialidad en el
+          desarrollo de <strong>aplicaciones integrales</strong>. Mi formación
+          me permite abordar cada proyecto desde una estructura lógica y técnica
+          sólida, garantizando que tanto la experiencia del usuario como la
+          arquitectura del servidor estén respaldadas por un código{" "}
+          <strong>eficiente</strong> y <strong>escalable</strong>.
         </p>
         <p>
-          Mi objetivo es construir puentes entre las necesidades del negocio y
-          soluciones tecnológicas completas, transformando requerimientos
-          complejos en ecosistemas digitales fluidos. Me apasiona el reto de
-          optimizar procesos de extremo a extremo y cuidar el equilibrio entre
-          un <strong>backend robusto</strong> y un <strong>frontend impecable</strong> para crear productos que
-          realmente aporten valor.
+          Me apasiona el reto de optimizar procesos de extremo a extremo y
+          cuidar el equilibrio entre un <strong>backend robusto</strong> y un{" "}
+          <strong>frontend impecable</strong> para crear productos que realmente
+          aporten valor.
         </p>
       </article>
-      <a href="public/CV.pdf" download id="btnDescargarCV" className="btn-base btn-dark btn-cv">Descargar CV <DownloadIcon /></a>
+      <a
+        href="public/CV.pdf"
+        download
+        id="btnDescargarCV"
+        className="btn-base btn-dark btn-cv"
+      >
+        Descargar CV <DownloadIcon />
+      </a>
     </section>
   );
 }
