@@ -187,13 +187,13 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 2rem;
 }
 
 .skill-card {
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--blanco);
   backdrop-filter: blur(10px);
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--tertiary);
   padding: 40px 30px;
   border-radius: 12px;
   transition: all 0.4s ease;
@@ -201,17 +201,18 @@
 }
 
 .skill-card:hover {
-  transform: translateY(-10px);
+  transform: scale(1.05);
   border-color: var(--primary);
   box-shadow: 0 20px 40px rgba(44, 82, 130, 0.1);
 }
 
 .skill-card h4 {
-  font-family: 'Monospace', monospace;
+  font-family: 'Monospace',
+   monospace;
   color: var(--primary);
   font-size: 1.3rem;
   margin-bottom: 20px;
-  border-bottom: 2px solid #f0f4f8;
+  border-bottom: 2px solid var(--blanco);
   padding-bottom: 10px;
 }
 
@@ -222,7 +223,7 @@
 
 .skill-card li {
   margin-bottom: 12px;
-  color: #4a5568;
+  color: var(--gris);
   font-size: 1rem;
   display: flex;
   align-items: center;
@@ -240,6 +241,115 @@
     padding: 4rem 2rem;
     background-color: var(--background);
     text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.project-card {
+    background: var(--blanco);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--tertiary);
+    padding: 20px; /*Quitar si quiero que la imagen esté pegada a los bordes*/
+    border-radius: 12px;
+    /* box-shadow: 0 20px 40px rgba(44, 82, 130, 0.1); */
+    /* transition: all 0.4s ease; */
+}
+
+.project-card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    /* box-shadow: 0 0 40px rgba(44, 82, 130, 0.1); */
+}
+
+.project-card-content {
+
+}
+
+.project-card-title {
+    font-family: 'Monospace', monospace;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.project-card-description {
+    color: var(--gris);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.project-card-stack {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para alinear el texto con el bullet */
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.project-card-stack-item {
+    color: var(--gris);
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.project-card-stack-item:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  margin-left: 8px;
+  opacity: 0.6;
+}
+
+.project-card-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.project-card-link {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--gris);
+    text-decoration: none;
+    line-height: 2;
+    position: relative;
+}
+
+.project-card-link::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: var(--gris);
+  position: absolute;
+  bottom: -.25rem;
+  right: 0;
+  transition: right .4s, width .4s, left .4s;
+}
+
+.project-card-link:hover::before {
+  width: 100%;
+  left: 0;
 }
 
 /* Experience */

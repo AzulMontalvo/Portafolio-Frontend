@@ -5,14 +5,12 @@ function Projects() {
 
   return (
     <section id="projects" className="projects">
-      <div className="container">
         <h2 className="section-title">Proyectos</h2>
-        <div className="projects-grid">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} project={project} />
+        <ul className="projects-grid">
+          {projects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
           ))}
-        </div>
-      </div>
+        </ul>
     </section>
   )
 }

@@ -1,28 +1,22 @@
-import { projects } from "../data/projects";
-
-function ProjectCard() {
+function ProjectCard({ project }) {
   return (
-    <div className="project-card">
-        {projects.map((project) => (
-            <div key={project.id} className="card">
-                <img src={project.image} alt={project.title} className="card-image" />
-                <div className="card-content">
-                    <h3 className="card-title">{project.title}</h3>
-                    <p className="card-description">{project.description}</p>
-                    <div className="card-stack">
-                        {project.stack.map((tech, index) => (
-                            <span key={index} className="stack-item">{tech}</span>
-                        ))}
-                    </div>
-                    <div className="card-links">
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer" className="card-link">Demo</a> 
-                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="card-link">GitHub</a>
-                    </div>
-                </div>
-            </div>
-        ))}
-    </div>
-  )
+    <li className="project-card">
+        <img src={project.image} alt={project.title} className="project-card-image" />
+        <article className="project-card-content">
+          <h3 className="project-card-title">{project.title}</h3>
+          <p className="project-card-description">{project.description}</p>
+          <ul className="project-card-stack">
+            {project.stack.map((tech, index) => (
+              <li key={index} className="project-card-stack-item">{tech}</li>
+            ))}
+          </ul>
+          <nav className="project-card-links">
+            <a href={project.demo} target="_blank" rel="noopener noreferrer" className="btn-base">Demo</a>
+            <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-card-link">GitHub</a>
+          </nav>
+        </article>
+    </li>
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;
