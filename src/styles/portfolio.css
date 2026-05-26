@@ -412,6 +412,29 @@
     padding: 2rem;
     background-color: var(--background);
     text-align: center;
+    border-top: 1px solid var(--secondary);
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-socials a {
+  color: var(--gris);
+  text-decoration: none;
+  font-family: 'Monospace', monospace;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--gris);
 }
 
 @media (max-width: 768px) {
@@ -514,6 +537,10 @@
     .skills-grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 0;
+    }
+
+    .footer-socials {
+        margin-bottom: 0;
     }
     }
 
