@@ -359,6 +359,36 @@
     text-align: center;
 }
 
+.timeline {
+  max-width: 400px;
+  margin: 2rem auto 0 auto;
+  padding: 0 30px;
+  border-left: 2px dashed var(--secondary);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -41px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 3px solid var(--primary);
+}
+
+.timeline-date {
+  font-family: 'Monospace', monospace;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
 /* Contact */
 .contact {
     padding: 4rem 2rem;
