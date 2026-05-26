@@ -396,6 +396,17 @@
     text-align: center;
 }
 
+.contact-card {
+  max-width: 600px;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid #e2e8f0;
+  padding: 40px;
+  border-radius: 12px;
+}
+
 /* Footer */
 .footer {
     padding: 2rem;

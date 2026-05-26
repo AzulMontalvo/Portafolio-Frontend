@@ -1,12 +1,17 @@
 function Contact() {
 
   return (
-    <section id="contact" className="contact">
-        <div className="container">
-            <h2>Contacto</h2>
-            <p>Si deseas contactarme, puedes enviarme un correo electrónico a <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a></p>
-        </div>
-    </section>
+<section className="contact">
+  <div className="contact-glow"></div> {/* Otro punto de luz sutil */}
+  <h2 className="section-title">Contacto</h2>
+  <div className="contact-card">
+    <h3>¿Tienes un proyecto en mente o buscas integrar a alguien a tu equipo?</h3>
+    <p>Estoy abierta a oportunidades de desarrollo Full Stack y consultoría técnica.</p>
+    <a href="mailto:montalvoazul5@gmail.com" className="btn-base">
+      Enviar Correo
+    </a>
+  </div>
+</section>
   )
 }
 
