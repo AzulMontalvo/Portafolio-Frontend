@@ -1,7 +1,7 @@
 function Contact() {
 
   return (
-<section className="contact">
+<section id="contact" className="contact">
   <div className="contact-glow"></div> {/* Otro punto de luz sutil */}
   <h2 className="section-title">Contacto</h2>
   <div className="contact-card">

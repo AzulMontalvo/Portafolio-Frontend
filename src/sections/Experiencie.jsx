@@ -1,6 +1,6 @@
 function Experience() {
   return (
-    <section className="experience">
+    <section id="experience" className="experience">
       <h2 className="section-title">Experiencia</h2>
       <div className="timeline">
         <article className="timeline-item">

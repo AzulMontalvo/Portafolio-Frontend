@@ -20,7 +20,7 @@ function Footer() {
         </a>
       </div>
       <p>
-        &copy; {new Date().getFullYear()} Azul. Todos los derechos reservados.
+        &copy; {new Date().getFullYear()} Azul Montalvo. Todos los derechos reservados.
       </p>
     </footer>
   );
