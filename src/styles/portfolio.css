@@ -206,11 +206,11 @@
 }
 
 .skill-card h4 {
+  margin-top: 0;
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 2px solid var(--blanco);
-  font-family: 'Monospace',
-   monospace;
+  font-family: 'Monospace', monospace;
   font-size: 1.3rem;
   color: var(--primary);
 }
@@ -268,6 +268,7 @@
     margin-bottom: 15px;
     border-radius: 8px 8px 0 0;
     object-fit: cover;
+    object-position: top;
     /* box-shadow: 0 0 40px rgba(44, 82, 130, 0.1); */
 }
 
@@ -283,6 +284,7 @@
 
 .project-card-description {
     margin-bottom: 1rem;
+    padding: 1rem;
     font-size: 1.2rem;
     line-height: 1.5;
     color: var(--gris);
@@ -297,6 +299,7 @@
     margin: 20px 0;
     padding: 0;
     list-style: none;
+    font-family: 'Monospace', monospace;
 }
 
 .project-card-stack-item {
