@@ -253,12 +253,12 @@
 
 .project-card {
     /*Dejar la padding en 20px si quiero que la imagen esté pegada a los bordes*/
-    padding: 0 0 20px 0;
+    padding: 20px;
     border: 1px solid var(--tertiary);
     border-radius: 12px;
     background: var(--blanco);
     backdrop-filter: blur(10px);
-    /* box-shadow: 0 20px 40px rgba(44, 82, 130, 0.1); */
+    box-shadow: 0 20px 40px rgba(44, 82, 130, 0.1);
     /* transition: all 0.4s ease; */
 }
 

@@ -6,12 +6,12 @@ function Experience() {
         <article className="timeline-item">
           <div className="timeline-marker"></div>
           <div className="timeline-content">
-            <span className="timeline-date">2025 - Presente</span>
+            <span className="timeline-date">Diciembre 2025 - Presente</span>
             <h3>FrontEnd Developer</h3>
-            <h4>Empresa</h4>
-            <p>
+            <h4>Bankaool - Institución de Banca Múltiple</h4>
+            {/* <p>
               Descripción
-            </p>
+            </p> */}
             <ul className="project-card-stack">
               <li className="project-card-stack-item">RazorPages</li>
               <li className="project-card-stack-item">ASP.NET</li>
