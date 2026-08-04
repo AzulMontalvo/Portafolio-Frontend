@@ -39,7 +39,7 @@ function About() {
         </p>
       </article>
       <a
-        href="CV.pdf"
+        href="AZUL-MONTALVO-CV.pdf"
         download
         id="btnDescargarCV"
         className="btn-base btn-dark btn-cv"
